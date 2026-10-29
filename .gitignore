@@ -2,9 +2,31 @@
 .ipynb_checkpoints/
 __pycache__/
 *.pyc
-.venv/
-venv/
+.venv*/
+venv*/
+.fake
+*.bak*
+~*
 
-# Крупные датасеты (скачать локально при необходимости)
+# Model weights
+*.pth
+*.pt
+*.onnx
+*.bin
+Models3-6/
+checkpoints/
+runs/
+
+# Large datasets & archives
 data/
+dataset/
+datasets/
+archive/
+cifar-10-batches-py/
+flowers/
+stl10_binary/
+ext_ood/
+ood_images/
 Multi-class Weather Dataset/
+BCCD_Dataset/
+yolo_bccd/
